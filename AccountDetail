@@ -1,0 +1,15 @@
+
+public class AccountDetail {
+	
+	int Acc_num=0;
+	String pass="";
+	String type="",mem="";
+	double money=0;
+	
+	public AccountDetail(int num,String pa,String type,String mem){
+		Acc_num=num;pass=pa;
+		this.type=type;this.mem=mem;
+	}
+}
+
+
